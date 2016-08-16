@@ -1,78 +1,55 @@
 ## 头像 金瑶简历  
-应聘职位：大数据研发工程师 / 研发工程师JAVA
+应聘职位：大数据研发工程师 / 研发工程师JAVA  
 湖北省武汉市洪山区珞喻路武汉大学信息学部　　　837276086@qq.com　　　+86 155 2751 9292  
 
 ## 个人简介  
-性别　男  
-生日　1993.04  
-本科　武汉大学　　资源与环境学院　　　　　　　　　　地理信息系统　　2011.09-2015.06  
-硕士　武汉大学　　测绘遥感信息工程国家重点实验室　　测绘工程　　　　2015.09-2017.06  
-实习　湖北地信公司时空信息平台研发部（2015.06-*）　http://www.dx-tech.com/
+性　　别　　男  
+生　　日　　1993.04  
+本　　科　　武汉大学　　资源与环境学院　　　　　　　　　　地理信息系统　　2011.09-2015.06  
+硕　　士　　武汉大学　　测绘遥感信息工程国家重点实验室　　测绘工程　　　　2015.09-2017.06  
+主修课程　　GIS原理、GIS设计、专题地图编制、C、C++、Java、软件工程、三维城市建模  
+实习经历　　湖北地信公司 时空信息平台研发部（2015.06-*）  
+
+## 技能速览
+|  技术类别      |         精通         |             熟悉        |          了解       |
+| :----------- | :---------------------|:------------------------| :-----------------|
+| 编程语言       | Java,JavaScript,html  | CSS,C#                 | Python             |
+| 数据库         | MySQL                 | Oracle,SQLServer,HBase |  Mongodb,SQLite    |
+| 后台框架       | Spring*,Mybatis       | Node.js,jws Webservice  |    Hibernate      |
+| 前端框架       | jQuery,Bootstrap      | OpenLayers,Leaflet,D3.js|   AngularJs,three.js,Flask |
+| 大数据框架     | Kafka,Storm           | Hadoop, elasticsearch, Spark ,Flume  |Kibana,Hive     |
+| 其他          |                       | Linux,vim,nginx           |                   |
 
 
 ## 项目经历  
 ##### 浙江省宁海县登山步道导航app  2014.12-2015.04
 此项目是为浙江省宁海县登山步道旅游区开发一个景点导航app，同时也是本人本科毕业设计的内容，本人承担了app最初版本的demo开发（根据已有的需求说明书），最终实现了地图定位、POI搜索、路线导航、地图书签等基本功能。  
 app开发使用的是Java原生开发的方式，地图操作API使用的是ArcGIS API for JavaScript，地图数据来源于宁海县发布的ArcGIS REST地图服务，测试数据保存在SQLite数据库，最终实现的demo用于项目初期演示。  
-https://github.com/uptonking/TrailNH  
 
 ### 老河口市智慧城市应用 平安校园app  2015.06-2015.09
 此项目是为老河口市第四小学开发的平安校园app，本人参与了项目移动客户端从招投标、设计、编码的全过程，参与了大部分的开发工作，最终实现了两套用户界面与功能。对家长，可以查看小孩位置、小孩到离校情况、小孩课堂视频；对老师，可以查看所有学生的实时位置、到离校考勤记录、教室的实时视频和历史视频。
 app开发使用的是html5+javascript+离线打包的方式，同时产生Android和iOS两套app。学生位置的数据源是学生卡上传的实时位置坐标，存在Oracle数据库，通过WCF服务提供给网页端和移动客户端使用，地图操作API使用的是OpenLayers，学生考勤数据通过RFID上传的记录来统计，教室视频查看是通过调用第三方的app。
+项目地址：https://github.com/uptonking/LHKExplorer
 
-https://github.com/uptonking/LHKExplorer
-    
 ##### 地图制图 2015.11-2016.05 
 此工作的目标是为了丰富时空信息云平台的内容，探索自动化制图的方法，本人独立进行摸索。
-利用ArcMap设计并编制了老河口市智慧城市地图册，已完成；
-设计并开发网页版在线制图系统，利用AngularJS+Leaflet实现界面展示与地图操作，未完成；
-设计并开发桌面版的动态制图系统，利用C#+ArcGIS Engine实现界面展示与地图操作，未完成。
-设计并开发制图后台服务系统，利用SSM框架实现通用REST服务，未完成。
+利用ArcMap设计并编制了老河口市智慧城市地图册，已完成；设计并开发网页版在线制图系统，利用AngularJS+Leaflet实现界面展示与地图操作，未完成；设计并开发桌面版的动态制图系统，利用C#+ArcGIS Engine实现界面展示与地图操作，未完成。设计并开发制图后台服务系统，利用SSM框架实现通用REST服务，未完成。
 
-Web版https://github.com/uptonking/fast-mapping   
-服务端https://github.com/uptonking/icarto-basic  
-桌面版https://github.com/uptonking/iCarto       
+   
 
 ##### 软件工程课程设计 我的人生足迹 2015.11-2015.12
 系统学习了软件工程的标准流程，编写了需求分析、总体设计、详细设计文档，并实现了我的人生足迹APP的演示原型。
 PowerDesigner设计数据库、绘制用例图
-Axure设计原型 
-http://i0d3au.axshare.com
+Axure设计原型 `http://i0d3au.axshare.com`
 
 ### 星湖光映摄影网站 2016.06-2016.08
 此项目是为了实验室摄影协会的宣传与摄影作品的投稿，本人主要承担了系统设计、技术架构、摄影网站后台服务的开发，实现了照片的上传、图片压缩存储、用户登陆等功能。  
 网站的开发采用了前后端分离的思想，后台采用Spring Boot+Mybatis提供标准的REST服务，前后端数据的交互采用JSON格式，前后端接口文档的说明采用swagger2生成，基本数据存在MySQL数据库，而照片未直接存在数据库而存在单独的服务器。
-项目源码：https://github.com/WHUPixels/whu-pixels-base/tree/alpha
 网站主页：http://115.28.75.48/WHUPixels/
-REST接口：http://123.206.29.126:8878/swagger-ui.html
 
 ### 日志大数据采集与分析系统  2016.06-2016.08
 此项目是为了统一管理时空信息平台各子应用系统的日志以及通过日志大数据挖掘用户行为，本人主要承担了系统设计、编码实现、系统部署的工作，初步实现了跨平台日志的采集、日志的缓存、日志的流式统计、日志存储以及日志统计结果的展示。
 系统的开发的各个环节都采用了分布式的技术框架。日志的采集实现了2种方法，可以通过flume采集sink到kafka，也可以直接直接通过API发送到kafka；日志的缓存采用的是kafka，可以根据需要设计不同的topic；日志的实时计算采用的是Storm，日志数据从Spout到Bolt的过程中，经过实时过滤和分类统计；再把统计结果存入MySQL，原始日志存入HBase；对统计结果主要使用d3.js展示动态图表、leaflet显示用户行为。
-https://github.com/uptonking/msg-middleware
+项目地址：https://github.com/uptonking/msg-middleware
 
-## 技能速览
-Java  JavaScript  html css  C# Python 
-MySQL Oracle SQLServer SQLite HBase Mongodb
-
-Spring*  
-Mybatis  
-jQuery  
-Bootstrap  
-OpenLayers  
-Leaflet  
-D3.js
-three.js
-Node.js
-AngularJs
-Flask
-
-nginx
-Kafka
-Hadoop
-Storm
-Spark
-elasticsearch
-Flume
-
-简历详情：https://uptonking.github.io/yaoooo/
+简历及项目详情：https://uptonking.github.io/yaoooo/
