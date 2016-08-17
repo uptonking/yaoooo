@@ -119,14 +119,14 @@
 
     <h3>
         <a id="authors-and-contributors2" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span
-                aria-hidden="true" class="octicon octicon-link"></span></a><a href="apps.html#wp" target="_blank">星湖光映摄影网站 </a>  2016.06-2016.08</h3>
+                aria-hidden="true" class="octicon octicon-link"></span></a><a href="apps.html#wp" target="_blank">星湖光IN 摄影网站 </a>  2016.06-2016.08</h3>
     <p>　　此项目是为了方便实验室摄影协会的宣传与摄影作品的投稿，本人主要承担了系统设计、技术架构、摄影网站后台服务的开发，实现了照片的上传、图片压缩存储、用户登陆等功能。<br>　　网站开发采用了前后端分离的思想，后台采用Spring Boot+Mybatis提供标准的REST服务，前后端数据的交互采用JSON格式，前后端接口文档的说明采用swagger2生成，基本数据存在MySQL数据库，而照片未直接存在数据库而存在单独的服务器。<br></p>
     <code>项目源码：https://github.com/WHUPixels/whu-pixels-base/tree/alpha</code><br/>
     <code>网站主页：http://115.28.75.48/WHUPixels/</code><br/>
     <code>REST接口：http://123.206.29.126:8878/swagger-ui.html</code>
     <h3>
         <a id="authors-and-contributors3" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span
-                aria-hidden="true" class="octicon octicon-link"></span></a><a href="apps.html#trailnh" target="_blank"> 日志大数据采集与分析系统</a>   2016.06-2016.08</h3>
+                aria-hidden="true" class="octicon octicon-link"></span></a><a href="apps.html#logs" target="_blank"> 日志大数据采集与分析系统</a>   2016.06-2016.08</h3>
     <p>　　此项目是为了统一管理时空信息平台各子系统的日志以及通过日志大数据挖掘用户行为，本人主要承担了系统设计、编码实现、系统部署的工作，初步实现了跨平台日志的采集、日志的缓存、日志的流式统计、日志存储以及日志统计结果的展示。<br>　　系统开发的各个环节均采用了分布式的技术框架。日志的采集实现了2种方法，可以通过flume采集sink到kafka，也可以直接通过API发送到kafka；日志的缓存采用的是kafka，可以根据应用子系统设计不同的topic；日志的实时计算采用的是Storm，日志数据从Spout到Bolt的过程中，经过实时过滤和分类统计；日志数据的统计结果存入MySQL，原始日志存入HBase；对统计结果的展示，主要使用d3.js展示动态图表，使用leaflet显示用户行为分布。<br></p>
     <code>项目地址：https://github.com/uptonking/msg-middleware</code>
 
